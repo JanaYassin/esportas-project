@@ -146,12 +146,12 @@ const Home = () => {
       </div>
       <div className="w-full mt-12 mb-12 grey-bg">
       <div className='flex justify-center items-center '>
-            <span className='icon1 mr-14 w-20 mb-12 mt-12'></span>
+            {/* <span className='icon1 mr-14 w-20 mb-12 mt-12'></span>
             <span className='icon2 mr-14 w-20'></span>
             <span className='icon3 mr-14 w-20'></span> 
             <span className='icon4 mr-14 w-20'></span>
             <span className='icon5 mr-14 w-20'></span>
-            <span className='icon6 w-20'></span>
+            <span className='icon6 w-20'></span> */}
             </div> 
       
       </div>

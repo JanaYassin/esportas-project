@@ -78,7 +78,7 @@
 .empty-square{
     content: url('../images/02.png');
 }
-
+/* 
 .icon1{
     content: url('../images/icon-01.png');
     
@@ -97,7 +97,7 @@
 }
 .icon6{
     content: url('../images/icon-06.png');
-}
+} */
 
 .logo1{
     content: url('../images/logo1.png');
