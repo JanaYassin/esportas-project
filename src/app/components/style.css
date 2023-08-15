@@ -1,0 +1,148 @@
+.custom-rounded-button {
+    border-radius: 20px; 
+  }
+.logo-class{
+    margin-left:15%;
+}
+.logo{
+    content: url('../images/logo.png'); 
+}
+.title{
+    width:45%;
+}
+.button-color{
+    background-color:#FF4D1C;
+}
+.orange-text{
+    color:#FF4D1C
+}
+.arrow-icon{
+    content: url('../images/arrow-Icon.png');
+}
+.heart-icon{
+    content: url('../images/heart-Icon.png');
+}
+.sound-icon{
+    content: url('../images/sound-Icon.png');
+}
+.headphone-image{
+    content: url('../images/headphones.png');
+    width:70%;
+    margin-left:10%;
+}
+.speakeer-icon{
+    content: url('../images/speaker-Icon.png');
+}
+.layers-icon{
+    content: url('../images/layers-Icon.png');
+}
+.wireless-icon{
+    content: url('../images/wireless-Icon.png');
+}
+
+.headphone1{
+    content: url('../images/headphone1.png');
+    width:50%;
+    margin-left:100px;
+}
+
+.headphone2{
+    content: url('../images/headphone2.png');
+    width:50%;
+    margin-left:100px;
+}
+
+.headphone3{
+    content: url('../images/headphone3.png');
+    width:60%;
+    margin-left:100px;
+}
+
+.headphone-placeholder1{
+    content: url('../images/ImagePlaceHolder.png');
+    width:70%;
+}
+.headphone-placeholder2{
+    content: url('../images/ImagePlaceHolder2.png');
+    width:70%;
+}
+
+.square-placeholder{
+    content: url('../images/SquarePlaceHolder.png');
+    width:20%; 
+}
+
+.orange-square{
+    content: url('../images/01.png');
+}
+.empty-square{
+    content: url('../images/02.png');
+}
+
+.icon1{
+    content: url('../images/icon-01.png');
+    
+}
+.icon2{
+    content: url('../images/icon-02.png');
+}
+.icon3{
+    content: url('../images/icon-03.png');
+}
+.icon4{
+    content: url('../images/icon-04.png');
+}
+.icon5{
+    content: url('../images/icon-05.png');
+}
+.icon6{
+    content: url('../images/icon-06.png');
+}
+
+.logo1{
+    content: url('../images/logo1.png');
+}
+
+.green-part{
+    background-color:#37A000;
+}
+.green-text{
+    color:#37A000;
+}
+.blue-bg{
+    background-color:#5DCAE1;
+}
+
+.grey-bg{
+    background-color:#F0F3F7;
+}
+.grey-text{
+    color:#454545;
+}
+  .video {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 90px;
+  }
+  
+  .video::before {
+    content: url('../images/Base.png');
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 20px;
+  }
+  
+  .video::after {
+    content: url('../images/square.png');
+    position: absolute;
+    left: 150%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 20px;
+  }
+  
