@@ -4,8 +4,6 @@ import About from './components/About'
 import Features from './components/Features'
 import Details from './components/Details'
 
-import './style.css';
-
 import './globals.css';
 
 const Home = () => {
