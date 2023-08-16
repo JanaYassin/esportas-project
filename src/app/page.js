@@ -8,7 +8,7 @@ import './globals.css';
 
 const Home = () => {
   return (
-    <><div>
+    <><div className='bg-white'>
       <Header />
       <About />
       <Features />
