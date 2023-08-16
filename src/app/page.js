@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="bg-white flex flex-col justify-center items-center">
       <h1 className="text-4xl font-bold mb-4">Different Colours & Different Choice</h1>
       <p className="text-[15px] text-center text-slate-400 mb-8">
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offici
@@ -124,7 +124,7 @@ const Home = () => {
       </div>
 
 
-      <div className="w-full">
+      <div className="bg-white w-full">
       <table className='w-3/4 ml-48'>
       <tr>
         <td className='w-2/5'> <div className='headphone3'></div></td>
@@ -155,7 +155,7 @@ const Home = () => {
       
       </div>
 
-      <div className="w-full ">
+      <div className="bg-white w-full ">
 
           <div className="flex flex-col justify-center items-center">
           <h1 className="text-[25px] grey-text font-bold mb-4 mt-12">Subscribe To Our Newsletter</h1>
