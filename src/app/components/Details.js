@@ -2,7 +2,7 @@ import React from 'react';
 
 function Details() {
   return (
-    <div className="mt-36 flex justify-center items-center h-screen p-4">
+    <div className="bg-white mt-36 flex justify-center items-center h-screen p-4">
     <table className="w-4/5">
       <tr>
         <td  className='w-2/5'><div className='headphone1'></div></td>
