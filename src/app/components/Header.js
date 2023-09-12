@@ -5,7 +5,7 @@ import './style.css';
 function Header() {
   const [selectedNavItem, setSelectedNavItem] = useState('About');
   return (
-    <header className='Header grey-bg flex items-center justify-between p-[20px]'> 
+    <header className='Header grey-bg flex text-center justify-between p-[20px]'> 
       <div className="logo-class flex ">
         <div className='logo'></div>
         <h1 className='text-3xl text-slate-700 ml-4'>Esportas</h1>
