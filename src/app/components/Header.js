@@ -10,7 +10,7 @@ function Header() {
         <div className='logo'></div>
         <h1 className='text-3xl text-slate-700 ml-4'>Esportas</h1>
       </div>
-      <nav className="flex gap-5 text-slate-700 mr-40">
+      <nav className="text-center flex gap-5 text-slate-700 mr-40">
         <a
           href="#"
           className={`mr-8 text-center hover:text-orange-500 ${selectedNavItem === 'About' ? 'text-orange-500' : ''}`}
