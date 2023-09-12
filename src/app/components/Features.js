@@ -3,7 +3,7 @@ import React from 'react';
 function Features() {
   return (
     <div className="features-part new-page min-h-screen flex flex-col justify-center items-center">
-      <h1 className="text-4xl font-bold mb-4">Technology Keeps Moving Forward</h1>
+      <h1 className="text-4xl font-bold mb-4 p-8">Technology Keeps Moving Forward</h1>
       <p className="semi-title text-[15px] text-center text-slate-400 mb-8">
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offici
       </p>
