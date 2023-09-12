@@ -3,7 +3,7 @@ import './style.css';
 
 function Greenblackpart() {
   return (
-    <div className="green-black-part flex w-full h-4/5">
+    <div className="green-black-part flex ">
         <div className="flex-1 green-part">
           <h1 className="mt-24 text-[30px] ml-[200px] font-bold text-left text-white w-1/2">The science of today is the technology of tomorrow</h1>
           <p className="text-[15px] ml-[200px] mb-4 text-left text-white w-2/3">
