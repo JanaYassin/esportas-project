@@ -92,7 +92,7 @@ const Home = () => {
           <div className='flex flex-col justify-center items-center'>
           <div className='logo1 w-14 pb-4 pt-12'></div> 
           <h1 className="text-center grey-text font-bold text-[40px]">KRADO</h1>
-          <p className='ext-center text-[10px] pt-8 pb-8'>@ 2019 All rights reserved</p>
+          <p className='ext-center text-[10px] pt-8 pb-8 grey-text'>@ 2019 All rights reserved</p>
           </div>
           </div>
 
