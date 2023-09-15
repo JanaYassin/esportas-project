@@ -8,6 +8,7 @@
 .logo{
     content: url('../images/logo.png'); 
 }
+
 .blue-part h1{
     line-height: 1;
 }
@@ -47,34 +48,58 @@
 
 .headphone1{
     content: url('../images/headphone1.png');
-    width:50%;
-    margin-left:100px;
+    width:70%;
+    margin-left:50px;
 }
-
 .headphone2{
     content: url('../images/headphone2.png');
-    width:50%;
-    margin-left:100px;
+    width:70%;
+    margin-left:50px;
 }
 
 .headphone3{
     content: url('../images/headphone3.png');
-    width:60%;
+   width:60%;
     margin-left:100px;
+}
+
+.types{
+    padding-bottom: 300px;
+
+}
+
+.types-images{
+    position: relative;
+    width:100%;
+    
 }
 
 .headphone-placeholder1{
     content: url('../images/ImagePlaceHolder.png');
-    width:70%;
+    position: absolute;
+    width:15%;
+    margin-left: 320px;
+    
+    
 }
 .headphone-placeholder2{
     content: url('../images/ImagePlaceHolder2.png');
-    width:70%;
+    position: absolute;  
+    width:15%;
+    margin-left: 580px;
+   
+}
+.headphone-placeholder3{
+    content: url('../images/ImagePlaceHolder.png');
+    position: absolute;  
+    width:15%;
+    margin-left: 850px;
 }
 
 .square-placeholder{
     content: url('../images/SquarePlaceHolder.png');
     width:20%; 
+    
 }
 
 .orange-square{
@@ -154,8 +179,9 @@
 
     .main-body{
         background-color: white;
+        width:400%;
     }
-    .Header a{
+    .header a{
         font-size:40px;
     }
     .logo-class {
@@ -172,7 +198,7 @@
         text-align: center;
         font-size:40px;
       }
-      .Header button{
+      .header button{
         font-size:40px;
     }
 
@@ -374,8 +400,6 @@
   .footer p{
     font-size:50px
   }
-  /* .logo1{
-    width:500%;
-  } */
+
 }
    
