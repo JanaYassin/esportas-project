@@ -2,14 +2,14 @@ import React from 'react';
 
 function Details() {
   return (
-    <div className="bg-white details-part mt-36 flex justify-center items-center h-screen p-8 pl-36">
-    <div className="w-4/5">
+    <div className="bg-white details-part mt-36 flex justify-center items-center h-screen pl-52">
+    <div className="">
   <div className="flex">
     <div className="w-2/5">
       <div className="headphone1"></div>
     </div>
     <div className="w-2/5 p-8">
-      <h1 className="text-[30px] font-bold">
+      <h1 className="text-[30px] font-bold w4/5">
         Kardo Came Up Width The Latest Technology
       </h1>
       <p className="text-[13px] text-gray-500">

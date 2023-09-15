@@ -1,6 +1,9 @@
 .custom-rounded-button {
     border-radius: 20px; 
   }
+  .main-body{
+    background-color: white;
+  }
 .logo-class{
     margin-left:200px;
 }

@@ -6,7 +6,7 @@ function Feedback() {
     <div className="w-full mt-32 mb-32">
         <div className="grey-bg feedback-part">
           <div className="flex flex-col justify-center items-center">
-          <h1 className="text-3xl font-bold mb-4 mt-24">Feedback From Our Customer</h1>
+          <h1 className="text-3xl font-bold mb-4 mt-24 text-black">Feedback From Our Customer</h1>
           <p className="text-[11px] text-center text-slate-400 mb-8">
            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offici
           </p>
@@ -16,7 +16,7 @@ function Feedback() {
             <div className='flex items-center'>
             <span className='square-placeholder'></span>
             <div className='part1 ml-2'>
-            <span className='text-[15px] font-semibold mb-1'>Micheal Deo</span><br />
+            <span className='text-[15px] font-semibold mb-1 text-black'>Micheal Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>
             </div>
             </div>
@@ -28,7 +28,7 @@ function Feedback() {
             <div className='flex items-center'>
             <span className='square-placeholder'></span>
             <div className='ml-2'>
-            <span className='text-[15px] font-semibold mb-1'>Elina Deo</span><br />
+            <span className='text-[15px] font-semibold mb-1 text-black'>Elina Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>
             </div>
             </div>
@@ -40,7 +40,7 @@ function Feedback() {
             <div className='flex items-center'>
             <span className='square-placeholder'></span>
             <div className='ml-2'>
-            <span className='text-[15px] font-semibold mb-1'>Williams Deo</span><br />
+            <span className='text-[15px] font-semibold mb-1 text-black'>Williams Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>
             </div>
             </div>
