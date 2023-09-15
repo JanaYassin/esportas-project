@@ -9,7 +9,7 @@ function Details() {
       <div className="headphone1"></div>
     </div>
     <div className="w-2/5 p-8">
-      <h1 className="text-[30px] font-bold w4/5">
+      <h1 className="text-[30px] font-bold w4/5 text-black">
         Kardo Came Up Width The Latest Technology
       </h1>
       <p className="text-[13px] text-gray-500">
@@ -26,7 +26,7 @@ function Details() {
   </div>
   <div className="flex">
     <div className="w-2/5 p-8">
-      <h1 className="text-[30px] font-bold mt-20">
+      <h1 className="text-[30px] font-bold mt-20 text-black">
         Kardo Modern Design With Wireless Gadget
       </h1>
       <p className="text-[13px] text-gray-500">
