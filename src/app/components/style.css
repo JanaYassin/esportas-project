@@ -8,7 +8,11 @@
 .logo{
     content: url('../images/logo.png'); 
 }
-
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .blue-part h1{
     line-height: 1;
 }
