@@ -62,6 +62,7 @@ const Home = () => {
     </div>
   </div>
 </div>
+
       </div>
       <div className="w-full grey-bg">
       <div className='flex justify-center items-center p-8'>
