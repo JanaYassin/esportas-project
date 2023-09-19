@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Details() {
   return (
@@ -6,7 +7,13 @@ function Details() {
     <div className="">
   <div className="flex">
     <div className="w-2/5">
-      <div className="headphone1"></div>
+      <div className="headphone1">
+      <Image
+        src="/images/headphone1.png"
+        alt="headphone1"
+        width={300}
+        height={250}/>
+      </div>
     </div>
     <div className="w-2/5 p-8">
       <h1 className="text-[30px] font-bold w4/5 text-black">
@@ -19,9 +26,9 @@ function Details() {
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernature aut
         odit aut fugit, sed quia.
       </p>
-      <button className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
+      <a className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
         EXPLORE MORE
-      </button>
+      </a>
     </div>
   </div>
   <div className="flex">
@@ -36,12 +43,18 @@ function Details() {
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernature aut
         odit aut fugit, sed quia.
       </p>
-      <button className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
+      <a className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
         EXPLORE MORE
-      </button>
+      </a>
     </div>
     <div className="w-2/5">
-      <div className="headphone2 mt-20"></div>
+      <div className="headphone2 mt-20">
+      <Image
+        src="/images/headphone2.png"
+        alt="headphone2"
+        width={300}
+        height={250}/>
+      </div>
     </div>
   </div>
 </div>

@@ -8,9 +8,9 @@ function About() {
       <p className="text-[15px] mb-4 text-left w-96 mr-60">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan totam rem aperi.
       </p>
-      <button className="custom-rounded-button button-color w-48 mr-[450px] mt-4 text-white px-6 py-2 hover:bg-orange-400">
+      <a className="custom-rounded-button button-color w-48 mr-[450px] mt-4 text-white px-6 py-2 hover:bg-orange-400">
         PURCHASE NOW
-      </button>
+      </a>
     </div>
   );
 }

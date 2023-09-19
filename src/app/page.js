@@ -26,9 +26,9 @@ const Home = () => {
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo Nemo
             enim voluptat.
           </p>
-          <button className="custom-rounded-button button-color text-white text-[13px] w-46 ml-[700px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
+          <a className="custom-rounded-button button-color text-white text-[13px] w-46 ml-[700px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
             PURCHACE NOW
-          </button>
+          </a>
           </div>
         </div>
       </div>
@@ -39,7 +39,13 @@ const Home = () => {
       <div class="pl-56 pr-48 pb-8">
   <div class="flex">
     <div class="">
-      <div class="headphone3"></div>
+      <div class="headphone3">
+      <Image
+        src="/images/headphone3.png"
+        alt="headphone3"
+        width={300}
+        height={250}/>
+      </div>
     </div>
     <div class="w-3/5">
       <h1 class="pt-16 text-[30px] font-bold text-left text-black w-10/12">
@@ -50,25 +56,59 @@ const Home = () => {
         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
         sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
       </p>
-      <button class="custom-rounded-button button-color text-white text-[13px] w-46 mt-4 mb-12 px-6 py-2 hover:bg-orange-400">
+      <a class="custom-rounded-button button-color text-white text-[13px] w-46 mt-4 mb-12 px-6 py-2 hover:bg-orange-400">
         PURCHASE NOW
-      </button>
+      </a>
     </div>
   </div>
 </div>
       </div>
       <div className="w-full grey-bg">
       <div className='flex justify-center items-center p-8'>
-            <span className='icon1 pr-8 w-24'></span>
-            <span className='icon2 pr-8 w-24'></span>
-            <span className='icon3 pr-8 w-24'></span> 
-            <span className='icon4 pr-8 w-24'></span>
-            <span className='icon5 pr-8 w-24'></span>
-            <span className='icon6 pr-8 w-24'></span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-01.png"
+             alt="icon1"
+             width={150}
+             height={110}/>
+            </span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-02.png"
+             alt="icon2"
+             width={150}
+             height={100}/>
+            </span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-03.png"
+             alt="icon3"
+             width={150}
+             height={100}/>
+            </span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-04.png"
+             alt="icon4"
+             width={150}
+             height={100}/>
+            </span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-05.png"
+             alt="icon5"
+             width={150}
+             height={100}/>
+            </span>
+            <span className='pr-8 w-24'>
+            <Image
+             src="/images/Icon-06.png"
+             alt="icon6"
+             width={150}
+             height={100}/>
+            </span>
             </div> 
-      
       </div>
-
       <div className="subscribe-part">
           <div className="flex flex-col justify-center items-center">
           <h1 className="text-[25px] grey-text font-bold pb-2 pt-12">Subscribe To Our Newsletter</h1>
@@ -81,16 +121,22 @@ const Home = () => {
     placeholder="Enter Your Email"
     className="border border-gray-300 px-3 py-3 w-96 pb-2 pr-10"
   />
-  <button className="bg-orange-500 text-white px-3 py-2 hover:bg-orange-400 absolute ml-72 mt-10 transform -translate-y-1/2">
+  <a className="bg-orange-500 text-white px-3 py-2 hover:bg-orange-400 absolute ml-72 mt-10 transform -translate-y-1/2">
     Subscribe
-  </button>
+  </a>
 </div>
           </div>
           </div>
 
           <div className="footer w-full mt-12  grey-bg">
           <div className='flex flex-col justify-center items-center'>
-          <div className='logo1 w-14 pb-4 pt-12'></div> 
+          <div className='w-14 pb-4 pt-12'>
+          <Image
+             src="/images/logo1.png"
+             alt="logo1"
+             width={150}
+             height={100}/>
+            </div> 
           <h1 className="text-center grey-text font-bold text-[40px]">KRADO</h1>
           <p className='ext-center text-[10px] pt-8 pb-8 grey-text'>@ 2019 All rights reserved</p>
           </div>

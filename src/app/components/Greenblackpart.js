@@ -10,9 +10,9 @@ function Greenblackpart() {
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
             eaque ipsa quae ab illo inven.
           </p>
-          <button className="custom-rounded-button bg-white text-orange-600 text-[13px] ml-[235px] w-36 px-6 py-2 hover:bg-orange-400">
+          <a className="custom-rounded-button bg-white text-orange-600 text-[13px] ml-[235px] w-36 px-6 py-2 hover:bg-orange-400">
             LEARN MORE
-          </button>
+          </a>
         </div>
         <div className="black-part flex-1 bg-black flex items-center justify-center green-text ">
           <p className="text-[30px] font-bold pb-8">Watch

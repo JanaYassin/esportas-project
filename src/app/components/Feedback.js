@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import './style.css';
 
 function Feedback() {
@@ -14,7 +15,13 @@ function Feedback() {
             <tr>
             <td className='w-1/4 p-8'>
             <div className='flex items-center'>
-            <span className='square-placeholder'></span>
+            <span >
+            <Image
+              src="/images/SquarePlaceHolder.png"
+              alt="box"
+              width={45}
+              height={35}/>
+            </span>
             <div className='part1 ml-2'>
             <span className='text-[15px] font-semibold mb-1 text-black'>Micheal Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>
@@ -26,7 +33,13 @@ function Feedback() {
              </td>
              <td className='w-1/4 p-8'>
             <div className='flex items-center'>
-            <span className='square-placeholder'></span>
+            <span >
+            <Image
+              src="/images/SquarePlaceHolder.png"
+              alt="box"
+              width={45}
+              height={35}/>
+            </span>
             <div className='ml-2'>
             <span className='text-[15px] font-semibold mb-1 text-black'>Elina Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>
@@ -38,7 +51,13 @@ function Feedback() {
              </td>
              <td className='w-1/4 p-8'>
             <div className='flex items-center'>
-            <span className='square-placeholder'></span>
+            <span >
+            <Image
+              src="/images/SquarePlaceHolder.png"
+              alt="box"
+              width={45}
+              height={35}/>
+            </span>
             <div className='ml-2'>
             <span className='text-[15px] font-semibold mb-1 text-black'>Williams Deo</span><br />
             <span className='text-[11px] text-orange-500'>Sydney, Australia</span>

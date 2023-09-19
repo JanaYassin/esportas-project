@@ -8,9 +8,6 @@
     margin-left:200px;
 }
 
-.logo{
-    content: url('../images/logo.png'); 
-}
 .center{
     text-align: center;
     justify-content: center;
@@ -29,45 +26,23 @@
 .orange-text{
     color:#FF4D1C
 }
-.arrow-icon{
-    content: url('../images/arrow-Icon.png');
-}
-.heart-icon{
-    content: url('../images/heart-Icon.png');
-}
-.sound-icon{
-    content: url('../images/sound-Icon.png');
-}
-.headphone-image{
-    content: url('../images/headphones.png');
-    width:70%;
-    margin-left:10%;
-}
-.speakeer-icon{
-    content: url('../images/speaker-Icon.png');
-}
-.layers-icon{
-    content: url('../images/layers-Icon.png');
-}
-.wireless-icon{
-    content: url('../images/wireless-Icon.png');
-}
 
+.headphone-image{
+    
+    margin-left:5%;
+    margin-right:5%;
+
+}
 .headphone1{
-    content: url('../images/headphone1.png');
-    width:70%;
     margin-left:50px;
 }
 .headphone2{
-    content: url('../images/headphone2.png');
-    width:70%;
-    margin-left:50px;
+    margin-left:70px;
 }
 
 .headphone3{
-    content: url('../images/headphone3.png');
-   width:60%;
-    margin-left:100px;
+    margin-left:150px;
+    margin-right: 50px;
 }
 
 .types{
@@ -82,31 +57,19 @@
 }
 
 .headphone-placeholder1{
-    content: url('../images/ImagePlaceHolder.png');
     position: absolute;
-    width:15%;
     margin-left: 320px;
     
     
 }
 .headphone-placeholder2{
-    content: url('../images/ImagePlaceHolder2.png');
     position: absolute;  
-    width:15%;
     margin-left: 580px;
    
 }
 .headphone-placeholder3{
-    content: url('../images/ImagePlaceHolder.png');
-    position: absolute;  
-    width:15%;
+    position: absolute; 
     margin-left: 850px;
-}
-
-.square-placeholder{
-    content: url('../images/SquarePlaceHolder.png');
-    width:20%; 
-    
 }
 
 .orange-square{
@@ -116,25 +79,6 @@
     content: url('../images/02.png');
 }
 
-.icon1{
-    content: url('../images/Icon-01.png');
-    
-}
-.icon2{
-    content: url('../images/Icon-02.png');
-}
-.icon3{
-    content: url('../images/Icon-03.png');
-}
-.icon4{
-    content: url('../images/Icon-04.png');
-}
-.icon5{
-    content: url('../images/Icon-05.png');
-}
-.icon6{
-    content: url('../images/Icon-06.png');
-} 
 
 .logo1{
     content: url('../images/logo1.png');
@@ -254,6 +198,7 @@
          margin-bottom: 10px
     }
     .icon{
+        
         width:40%;
      }
      td {

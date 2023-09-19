@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Image from 'next/image';
 
 function Types() {
   return (
@@ -9,9 +10,27 @@ function Types() {
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offici
     </p>
     <div class="types-images ">
-  <div class="headphone-placeholder1"></div>
-  <div class="headphone-placeholder2"></div>
-  <div class="headphone-placeholder3"></div>
+  <div class="headphone-placeholder1">
+  <Image
+        src="/images/ImagePlaceHolder.png"
+        alt="headphone1"
+        width={200}
+        height={150}/>
+  </div>
+  <div class="headphone-placeholder2">
+  <Image
+        src="/images/ImagePlaceHolder2.png"
+        alt="headphone2"
+        width={200}
+        height={150}/>
+  </div>
+  <div class="headphone-placeholder3">
+  <Image
+        src="/images/ImagePlaceHolder.png"
+        alt="headphone1"
+        width={200}
+        height={150}/>
+  </div>
 </div>
     </div>
   );

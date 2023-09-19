@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Image from 'next/image';
 import './style.css';
 
 function Header() {
@@ -7,7 +8,11 @@ function Header() {
   return (
     <header className='header grey-bg flex justify-between p-[20px]'> 
       <div className="logo-class flex ">
-        <div className='logo'></div>
+        <Image
+        src="/images/logo.png"
+        alt="logo"
+        width={40}
+        height={30}/>
         <h1 className='text-3xl text-slate-700 ml-4'>Esportas</h1>
       </div>
       <nav className="center flex gap-5 text-slate-700 mr-40">
