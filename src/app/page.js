@@ -26,9 +26,9 @@ const Home = () => {
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo Nemo
             enim voluptat.
           </p>
-          <a className="custom-rounded-button button-color text-white text-[13px] w-46 ml-[700px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
+          <button className="custom-rounded-button button-color text-white text-[13px] w-46 ml-[700px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
             PURCHACE NOW
-          </a>
+          </button>
           </div>
         </div>
       </div>
@@ -56,9 +56,9 @@ const Home = () => {
         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
         sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
       </p>
-      <a class="custom-rounded-button button-color text-white text-[13px] w-46 mt-4 mb-12 px-6 py-2 hover:bg-orange-400">
+      <button class="custom-rounded-button button-color text-white text-[13px] w-46 mt-4 mb-12 px-6 py-2 hover:bg-orange-400">
         PURCHASE NOW
-      </a>
+      </button>
     </div>
   </div>
 </div>
@@ -121,9 +121,9 @@ const Home = () => {
     placeholder="Enter Your Email"
     className="border border-gray-300 px-3 py-3 w-96 pb-2 pr-10"
   />
-  <a className="bg-orange-500 text-white px-3 py-2 hover:bg-orange-400 absolute ml-72 mt-10 transform -translate-y-1/2">
+  <button className="bg-orange-500 text-white px-3 py-2 hover:bg-orange-400 absolute ml-72 mt-10 transform -translate-y-1/2">
     Subscribe
-  </a>
+  </button>
 </div>
           </div>
           </div>

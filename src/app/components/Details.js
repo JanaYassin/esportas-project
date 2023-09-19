@@ -26,9 +26,9 @@ function Details() {
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernature aut
         odit aut fugit, sed quia.
       </p>
-      <a className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
+      <button className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
         EXPLORE MORE
-      </a>
+      </button>
     </div>
   </div>
   <div className="flex">
@@ -43,9 +43,9 @@ function Details() {
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernature aut
         odit aut fugit, sed quia.
       </p>
-      <a className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
+      <button className="custom-rounded-button button-color mt-8 text-white px-6 py-2 hover:bg-orange-400">
         EXPLORE MORE
-      </a>
+      </button>
     </div>
     <div className="w-2/5">
       <div className="headphone2 mt-20">
