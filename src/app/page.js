@@ -18,17 +18,17 @@ const Home = () => {
       <Greenblackpart />
       <Details />
     <div className="w-full mt-32 mb-32">
-        <div className="blue-bg">
-          <div className='text-part w-2/3 p-6'>
-        <h1 className="mt-24 text-[30px] ml-[700px] font-bold text-left text-black w-1/2">The Krado Is a Great Way To Get On The Music</h1>
-        <p className="text-[15px] ml-[700px] mb-4 text-left text-gray-500 w-1/2">
+        <div className="blue-bg p-16 pb-20">
+          <div className='text-part w-3/4 p-6'>
+        <h1 className="mt-8 text-[30px] ml-[650px] font-bold text-left text-black w-1/2">The Krado Is a Great Way To Get On The Music</h1>
+        <p className="text-[15px] ml-[650px] mb-4 text-left text-gray-500 w-1/2">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo Nemo
             enim voluptat.
           </p>
-          <button className="custom-rounded-button button-color text-white text-[13px] w-46 ml-[700px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
+          <a className="custom-rounded-button button-color text-white text-[13px] w-1/2 ml-[650px] mt-4 mb-24 px-6 py-2 hover:bg-orange-400">
             PURCHACE NOW
-          </button>
+          </a>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@ const Home = () => {
       <Feedback />
       <div className="price-part bg-white w-full">
       <div class="pl-56 pr-48 pb-8">
-  <div class="flex">
-    <div class="">
+      <div class="flex">
+      <div class="">
       <div class="headphone3">
       <Image
         src="/images/headphone3.png"
@@ -119,7 +119,7 @@ const Home = () => {
   <input
     type="email"
     placeholder="Enter Your Email"
-    className="border border-gray-300 px-3 py-3 w-96 pb-2 pr-10"
+    className="border border-gray-300 px-3 py-3 w-[390px] pb-2 pr-10 h-14"
   />
   <button className="bg-orange-500 text-white px-3 py-2 hover:bg-orange-400 absolute ml-72 mt-10 transform -translate-y-1/2">
     Subscribe

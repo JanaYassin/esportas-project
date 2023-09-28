@@ -71,9 +71,26 @@ function Feedback() {
             <tr>
               <td colSpan={3} >
             <div className='flex justify-center items-center'>
-            <span className='orange-square mr-4 mb-24'></span>
-            <span className='empty-square mr-4 mb-24'></span>
-            <span className='orange-square mb-24'></span> 
+            <span className='mr-4 mb-24'>
+            <Image
+              src="/images/01.png"
+              alt="box"
+              width={15}
+              height={10}/>
+            </span>
+            <span className='mr-4 mb-24'>
+            <Image
+              src="/images/02.png"
+              alt="box"
+              width={15}
+              height={10}/>
+            </span>
+            <span className='mb-24'>
+            <Image
+              src="/images/01.png"
+              alt="box"
+              width={15}
+              height={10}/></span> 
             </div> 
             </td>
             </tr>

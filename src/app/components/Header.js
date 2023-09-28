@@ -44,7 +44,7 @@ function Header() {
         >
           Plans
         </a>
-        <a className="bg-slate-800 text-center text-white custom-rounded-button px-4 py-2 w-36 hover:bg-slate-700 hover:text-orange-500">Join Us</a>
+        <a className="button bg-slate-800 text-center text-white custom-rounded-button px-4 py-2 w-36 hover:bg-slate-700 hover:text-orange-500">Join Us</a>
 
       </nav>
     </header>

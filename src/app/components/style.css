@@ -55,6 +55,9 @@
     width:100%;
     
 }
+.test-button{
+    margin-bottom: 90%;
+}
 
 .headphone-placeholder1{
     position: absolute;
@@ -71,15 +74,6 @@
     position: absolute; 
     margin-left: 850px;
 }
-
-.orange-square{
-    content: url('../images/01.png');
-}
-.empty-square{
-    content: url('../images/02.png');
-}
-
-
 .green-part{
     background-color:#37A000;
 }
@@ -125,43 +119,103 @@
    @media (max-width: 640px) {
 
     .main-body{
-        background-color: white;
-        width:400%;
+        width:100%;
+        overflow-x: hidden;
     }
+    .header nav{
+        width: 20%;
+    }
+
     .header a{
-        font-size:40px;
+        font-size:15px;
+        width: 15%;
+        
+
     }
     .logo-class {
         flex-direction: column;
         align-items: center;
-        font-size:35px;
-        margin-bottom: 10px;
-        margin-right:5%;
+        margin-left:-2%;
+        width:15%;
+        
+      }
+     
+      .logo-class h1 {
+        margin-right: 35%;
+        text-align: center;
+        font-size:13px;
+      }
+      .header button{
+        font-size:13px;
+        /* width:30%; */
+        /* margin-left:-50%;
+        margin-top:-5%; */
+    }
+
+    /* .main-body{
+        width:100%;
+        overflow-x: hidden;
+    }
+     .Header{
+        width:100%;
+     }
+     .Header a{
+        font-size:12px;
+        margin-left:-46%;
+        margin-right:50%;
+
+    }
+    .logo-class {
+        flex-direction: column;
+        align-items: center;
         margin-left:5%;
         
       }
+      .logo{
+        width:15%;
+        margin-right:180px;
+      }
       .logo-class h1 {
-        margin-top: 10px;
+        margin-left:-100%;
         text-align: center;
-        font-size:40px;
+        font-size:13px;
+      }
+      .Header a{
+        font-size:13px;
+        width:18%;
+        margin-left:-50%;
+        margin-top:-5%;
+    }
+    .logo-class {
+        align-items: center;
+        width:10%;
+        margin-left:-3%;
+      }
+      .logo-class h1 {
+        align-items: center;
+        font-size:15px;
+        margin-left: 1%;
       }
       .header button{
-        font-size:40px;
+        font-size:20px;
     }
-
+    
     .blue-part h1{
-        font-size:70px;
-        width:90%;
-        margin-left:25%;
+        font-size:20px;
+        margin-left: -170%;
+        width:200%;
      }
      .blue-part p{
-        font-size:50px;
-        width:90%;
-        margin-left:25%;
+        font-size:15px;
+        margin-left: -170%;
+        width:200%;
      }
-     .blue-part button{
-        font-size:40px;
-        width:50%;
+     .custom-rounded-button {
+        width: 100%;
+        margin-right: 0; 
+      }
+     .blue-part a{
+        font-size:10px;
      }
      .details-part{
         height:4000px;
@@ -173,22 +227,24 @@
      }
 
      .features-part h1{
-        font-size:60px;
+        font-size:20px;
+        width: 70%;
+        
     }
     .features-part p{
-        font-size:50px;
-        width:100%;
+        font-size:15px;
+        width:70%;
         margin-top:30px;
     }
 
     .features-part h2{
-        font-size:50px;
-        width:300%;
+        font-size:15px;
+        width:100%;
         margin-top:30px;
         margin-left:-50%;
     }
     .features-part .icon-text{
-        width:300%;
+        width:100%;
         margin-left:-50%;
         line-height: 1.5;
          margin-bottom: 10px
@@ -197,13 +253,6 @@
         
         width:40%;
      }
-     td {
-        display: block;
-        box-sizing: border-box; 
-        font-size:70px;
-        padding:15px;
-        text-align:center;
-      }
       .green-black-part{
         margin-bottom:200%;
       }
@@ -240,7 +289,6 @@
 }
 .details-part p{
     width:1000px;
-    /* margin-left:200px; */
     font-size:50px;
 }
 .details-part h1{
@@ -250,22 +298,8 @@
 .details-part button{
     margin-left:400px;
 }
-.blue-bg h1{
-    width:90%;
-    font-size:60px;
-}
-.blue-bg p{
-    width:90%;
-    font-size:50px;
-
-}
-.blue-bg button{
-    width:50%;
-    font-size:50px;
-
-}
 .blue-bg {
-    margin-left:-35%;
+    
 }
 .types h1{
     font-size:60px;
@@ -273,14 +307,7 @@
 .types p{
     font-size:50px;
 }
-.headphone-placeholder1{
- width:100%;
- margin-top:5%;
-}
-.headphone-placeholder2{
-    width:100%;
-    margin-top:5%;
-}
+
 .feedback-part h1{
     font-size:60px;
 }
@@ -347,7 +374,7 @@
   }
   .footer p{
     font-size:50px
-  }
+  } */
 
 }
    
